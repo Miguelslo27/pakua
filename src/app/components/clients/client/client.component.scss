@@ -1,0 +1,26 @@
+.one-client {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+
+  .picture {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 50%;
+    
+    img {
+      max-height: 100%;
+    }
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+  }
+}

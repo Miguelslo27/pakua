@@ -1,0 +1,29 @@
+[
+  {
+    "pic": "/assets/persona.jpg",
+    "nombre": "Miguel",
+    "apellido": "Sosa",
+    "ci": "1111",
+    "direccion": "X",
+    "telefono": "5555",
+    "email": "miguelmail2006@gmail.com"
+  },
+  {
+    "pic": "/assets/persona.jpg",
+    "nombre": "Gabriel",
+    "apellido": "Goliger",
+    "ci": "2222",
+    "direccion": "X",
+    "telefono": "6666",
+    "email": "mail@mail.com"
+  },
+  {
+    "pic": "/assets/persona.jpg",
+    "nombre": "Alejandro",
+    "apellido": "Gil",
+    "ci": "333",
+    "direccion": "X",
+    "telefono": "6666",
+    "email": "mail@mail.com"
+  }
+]

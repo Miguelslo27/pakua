@@ -1,0 +1,22 @@
+<div class="sidebar">
+
+  <div class="clients">
+
+    <div
+      *ngIf="loadingClientes">
+      <h2>Cargando...</h2>
+    </div>
+
+    <div *ngIf="!loadingClientes && clients">
+      <client
+        *ngFor="let client of clients"
+        [data]="client"
+        (click)="selectClient(client)"></client>
+    </div>
+
+    <h2
+      *ngIf="!loadingClientes && !clients">No hay clientes</h2>
+
+  </div>
+
+</div>

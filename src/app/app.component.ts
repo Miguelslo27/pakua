@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  public selectedClient: any;
+
+  public showClient(client: any) {
+    this.selectedClient = client;
+    console.log(this.selectedClient);
+  }
+
+  public unselectClient() {
+    this.selectedClient = undefined;
+  }
 }
